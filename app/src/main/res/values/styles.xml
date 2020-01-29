@@ -17,4 +17,38 @@
         <item name="android:popupTheme">@style/ThemeOverlay.MaterialComponents.Light</item>
     </style>
 
+    <style name="TaskList" />
+
+    <style name="TaskList.AddTaskButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:backgroundTint">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="icon">@drawable/ic_add</item>
+        <item name="iconTint">@color/colorBlack</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.TaskInputLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/colorWhite</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="boxCornerRadiusBottomStart">4dp</item>
+        <item name="boxCornerRadiusTopEnd">4dp</item>
+        <item name="boxCornerRadiusTopStart">4dp</item>
+        <item name="hintAnimationEnabled">true</item>
+        <item name="hintEnabled">true</item>
+    </style>
+
+    <style name="TaskList.TaskList">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@color/colorWhiteGray</item>
+    </style>
+
 </resources>

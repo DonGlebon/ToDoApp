@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ToDoApp</string>
+    <string name="add_new_task_hint">What will you do?</string>
+    <string name="add_new_task">Add</string>
 </resources>
